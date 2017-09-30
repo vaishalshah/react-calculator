@@ -4,6 +4,7 @@
   color: #fff;
   border: solid 1px #921029;
   text-align: center;
+  width: 25%;
 }
 
 .calc-button:focus {
