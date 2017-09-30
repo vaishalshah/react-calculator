@@ -11,6 +11,7 @@ export default class MasterContainer extends React.Component {
 			equation: "0"
 		};
 		this.answerFlag = false;
+		this.validKeys = ['0','1','2','3','4','5','6','7','8','9','+','-','/','.'];
 
 		this.editEquation = this.editEquation.bind(this);
 		this.parseEquation = this.parseEquation.bind(this);
@@ -19,9 +20,9 @@ export default class MasterContainer extends React.Component {
 
 	componentDidMount() {
 		document.addEventListener('keydown', (event) => {
-			if(event.keyCode >= 48 && event.keyCode <= 57) {
-				this.editEquation(event.key);
-			}
+			if(this.validKeys.indexOf(event.key) > -1) this.editEquation(event.key);
+			else if(event.key === 'Backspace') this.clearEquation();
+			else if(event.key === '=') this.parseEquation();
 		});
 	}
 
