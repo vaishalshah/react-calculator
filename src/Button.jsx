@@ -8,7 +8,7 @@ export default class Button extends React.Component {
 		const cssClass = isNumber ?
 			'calc-button col-md-3 calc-number' : 'calc-button col-md-3';
 		return(
-			<button className={cssClass}>{this.props.content}</button>
+			<button className={cssClass} onClick={()=>this.props.onClick(this.props.content)}>{this.props.content}</button>
 		);
 	}
 }

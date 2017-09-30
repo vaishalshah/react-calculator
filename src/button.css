@@ -10,7 +10,7 @@
   outline: none;
 }
 
-.calc-button:hover {
+.calc-button:active {
   color: #fff;
   background: #921029;
 }
