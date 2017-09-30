@@ -1,0 +1,21 @@
+.calc-button {
+	font-size: 50px;
+  background: #F2274F;
+  color: #fff;
+  border: solid 1px #921029;
+  text-align: center;
+}
+
+.calc-button:focus {
+  outline: none;
+}
+
+.calc-button:hover {
+  color: #fff;
+  background: #921029;
+}
+
+.calc-number {
+	background: #fff;
+	color: #000;
+}
