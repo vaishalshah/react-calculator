@@ -20,9 +20,9 @@ export default class MasterContainer extends React.Component {
 
 	componentDidMount() {
 		document.addEventListener('keydown', (event) => {
-			if(this.validKeys.indexOf(event.key) > -1) this.editEquation(event.key);
+			if(this.validKeys.indexOf(event.key) > -1) this.editEquation(event.key.replace('/','÷'));
 			else if(event.key === 'Backspace') this.clearEquation();
-			else if(event.key === '=') this.parseEquation();
+			else if(event.key === '=' || event.key === 'Enter') this.parseEquation();
 		});
 	}
 
