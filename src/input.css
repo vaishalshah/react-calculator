@@ -2,7 +2,6 @@
   font-size: 50px;
   background: #433437;
   color: #fff;
-  border: solid 1px #F2274F;
   border-bottom: none;
   text-align: right;
   width: 100vw;
@@ -11,4 +10,5 @@
   line-height: 2;
   overflow-x: scroll;
   letter-spacing: 2px;
+  flex-grow: 1;
 }

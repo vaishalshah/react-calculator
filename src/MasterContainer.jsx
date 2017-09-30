@@ -1,5 +1,6 @@
 import React from 'react';
 import math from 'mathjs';
+import './master.css';
 import Input from './Input';
 import Button from './Button';
 
@@ -53,7 +54,7 @@ export default class MasterContainer extends React.Component {
 
 	render(){
 		return (
-			<div className="container">
+			<div className="container calc-container">
 				<Input text={this.state.equation}/>
 				<div className="calc-row col-md-12">
 					<Button content="7" onClick={this.editEquation}/>
