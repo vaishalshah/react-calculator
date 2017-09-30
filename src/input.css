@@ -9,4 +9,5 @@
   padding-right: 10px;
   margin-bottom: 0;
   line-height: 2;
+  overflow-x: scroll;
 }

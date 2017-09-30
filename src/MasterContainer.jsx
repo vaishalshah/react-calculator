@@ -17,6 +17,14 @@ export default class MasterContainer extends React.Component {
 		this.clearEquation = this.clearEquation.bind(this);
 	}
 
+	componentDidMount() {
+		document.addEventListener('keydown', (event) => {
+			if(event.keyCode >= 48 && event.keyCode <= 57) {
+				this.editEquation(event.key);
+			}
+		});
+	}
+
 	editEquation(text){
 		const nextEquation = this.state.equation === '0' || this.answerFlag ? text : this.state.equation + text;
 		this.setState({
