@@ -25,6 +25,7 @@ export default class MasterContainer extends React.Component {
 			else if(event.key === 'Backspace') this.clearEquation();
 			else if(event.key === '=' || event.key === 'Enter') this.parseEquation();
 		});
+		window.math = math;
 	}
 
 	editEquation(text){
