@@ -25,6 +25,13 @@ export default class MasterContainer extends React.Component {
 			else if(event.key === 'Backspace') this.clearEquation();
 			else if(event.key === '=' || event.key === 'Enter') this.parseEquation();
 		});
+
+		String.prototype.replaceAll = function(search, replacement) {
+	    var target = this;
+	    return target.replace(new RegExp(search, 'g'), replacement);
+		};
+
+		//just for development purpose right now, will remove it later.
 		window.math = math;
 	}
 
@@ -40,7 +47,7 @@ export default class MasterContainer extends React.Component {
 		this.answerFlag = true;
 		let answer = 'Invalid';
 		try{
-			answer = math.eval(this.state.equation.replace('÷','/'));
+			answer = math.eval(this.state.equation.replaceAll('÷','/'));
 		}catch(err){}
 		this.setState({
 			equation: answer
