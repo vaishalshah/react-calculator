@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import MasterContainer from './MasterContainer';
+import 'bootstrap/dist/css/bootstrap.css';
+import Master from './Master/Master';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<MasterContainer />, document.getElementById('root'));
+ReactDOM.render(<Master />, document.getElementById('root'));
 registerServiceWorker();
