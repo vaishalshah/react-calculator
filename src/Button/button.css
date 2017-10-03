@@ -1,23 +1,35 @@
 .calc-button {
-  font-size: 35px;
-  background: #f2274f;
-  color: #fff;
-  border: solid 1px #921029;
+  font-size: 25px;
+  background: #fff;
+  color: #2c2c2c;
+  border: solid 1px rgba(44, 44, 44, 0.2);
   text-align: center;
-  width: 25%;
   line-height: 1;
+  height: 20%;
 }
-
 .calc-button:focus {
   outline: none;
 }
-
 .calc-button:active {
-  color: #fff;
-  background: #921029;
+  background: #bebebe;
 }
 
-.calc-number {
-  background: #fff;
-  color: #000;
+.calc-equal {
+  height: 40%;
+  background: #0091e6;
+  color: #fff;
+}
+.calc-equal:active {
+  background: #0071b3;
+}
+
+.calc-brackets {
+  width: 50%;
+  height: 100%;
+}
+
+img {
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
 }

@@ -13,9 +13,20 @@ body {
   flex-direction: column;
 }
 
-.calc-row {
-	padding: 0;
-	flex-grow: 1;
+.calc-controls {
+  flex-grow: 2;
   display: flex;
+}
+
+.calc-col {
+	padding: 0;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
   text-align: center;
+}
+
+.calc-brackets-div {
+  padding: 0;
+  height: 20%;
 }
