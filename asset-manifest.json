@@ -1,11 +1,17 @@
 {
-  "main.css": "static/css/main.27ad8ada.css",
-  "main.css.map": "static/css/main.27ad8ada.css.map",
-  "main.js": "static/js/main.2745c18a.js",
-  "main.js.map": "static/js/main.2745c18a.js.map",
+  "main.css": "static/css/main.7149d65a.css",
+  "main.css.map": "static/css/main.7149d65a.css.map",
+  "main.js": "static/js/main.db84e105.js",
+  "main.js.map": "static/js/main.db84e105.js.map",
+  "static/media/delete.svg": "static/media/delete.8e0bee46.svg",
+  "static/media/division.svg": "static/media/division.90dac9b8.svg",
+  "static/media/equal.svg": "static/media/equal.e595acbf.svg",
   "static/media/glyphicons-halflings-regular.eot": "static/media/glyphicons-halflings-regular.f4769f9b.eot",
   "static/media/glyphicons-halflings-regular.svg": "static/media/glyphicons-halflings-regular.89889688.svg",
   "static/media/glyphicons-halflings-regular.ttf": "static/media/glyphicons-halflings-regular.e18bbf61.ttf",
   "static/media/glyphicons-halflings-regular.woff": "static/media/glyphicons-halflings-regular.fa277232.woff",
-  "static/media/glyphicons-halflings-regular.woff2": "static/media/glyphicons-halflings-regular.448c34a5.woff2"
+  "static/media/glyphicons-halflings-regular.woff2": "static/media/glyphicons-halflings-regular.448c34a5.woff2",
+  "static/media/minus.svg": "static/media/minus.d711fae4.svg",
+  "static/media/multiplication.svg": "static/media/multiplication.fb1cb26f.svg",
+  "static/media/plus.svg": "static/media/plus.de2b384e.svg"
 }
